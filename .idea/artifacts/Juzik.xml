@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Juzik">
+    <output-path>$PROJECT_DIR$/out/artifacts/Juzik</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.juzik.juzik.MainApplication" />
+        <option name="description" value="Audio file metadata editing program." />
+        <option name="height" value="600" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Juzik" />
+        <option name="vendor" value="Lempac" />
+        <option name="version" value="0.0.1" />
+        <option name="width" value="750" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Juzik.jar">
+        <element id="module-output" name="Juzik" />
+      </element>
+    </root>
+  </artifact>
+</component>

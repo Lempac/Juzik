@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "maven@latest",
+    "xorg.libXxf86vm@latest",
+    "xorg.libXtst@latest",
+    "binutils@latest",
+    "libglvnd@latest",
+    "openjfx17@latest",
+    "jdk@17",
+    "glib@latest"
+  ],
+  "shell": {
+    "init_hook": null,
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
