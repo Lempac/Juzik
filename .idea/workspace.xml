@@ -1,46 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Juzik" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b5f2e5-aa0e-4243-93be-e7385db5bdb9" name="Changes" comment="">
+    <list default="true" id="94b5f2e5-aa0e-4243-93be-e7385db5bdb9" name="Changes" comment="Java program to edit music files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Juzik.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/juzik/juzik/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/juzik/juzik/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juzik/juzik/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juzik/juzik/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juzik/juzik/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juzik/juzik/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/juzik/juzik/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/juzik/juzik/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lempac&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9fc3e20e-b5db-425d-9d84-0333edc033cb" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lempac/Juzik.git&quot;,
+    &quot;accountId&quot;: &quot;9fc3e20e-b5db-425d-9d84-0333edc033cb&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MavenRunner">
+    <option name="environmentProperties">
+      <map>
+        <entry key="LD_LIBRARY_PATH" value="$PROJECT_DIR$/.devbox/nix/profile/default/lib" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Djdk.gtk.version=3" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2jVvEGx4yWFSJp445Xs4M7Ub2xD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.Juzik [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [javafx:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-jar-plugin:2.4:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-jar-plugin:2.4:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-jar-plugin:2.4:test-jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.apache.maven.plugins:maven-shade-plugin:3.2.0:shade].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Juzik [test].executor&quot;: &quot;Run&quot;,
+    &quot;NIXITCH_NIXPKGS_CONFIG&quot;: &quot;/etc/nix/nixpkgs-config.nix&quot;,
+    &quot;NIXITCH_NIX_CONF_DIR&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_OTHER_STORES&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_PATH&quot;: &quot;nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels&quot;,
+    &quot;NIXITCH_NIX_PROFILES&quot;: &quot;/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/lempac /home/lempac/.local/state/nix/profile /nix/profile /home/lempac/.nix-profile&quot;,
+    &quot;NIXITCH_NIX_REMOTE&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_USER_PROFILE_DIR&quot;: &quot;/nix/var/nix/profiles/per-user/lempac&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lempac/Github/Juzik/src/main/resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.44830826&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.juzik.juzik" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn javafx:jlink" />
+      <command value="mvn javafx:run" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value=".devbox/nix/profile/default/lib" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.juzik.juzik.MainApplication" />
+      <module name="Juzik" />
+      <option name="VM_PARAMETERS" value="-Djdk.gtk.version=3 " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juzik.juzik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,6 +179,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="94b5f2e5-aa0e-4243-93be-e7385db5bdb9" name="Changes" comment="" />
@@ -57,8 +189,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721484945790</updated>
-      <workItem from="1721484946810" duration="1000" />
+      <workItem from="1721484946810" duration="2451000" />
+      <workItem from="1721487515243" duration="67000" />
+      <workItem from="1721487617753" duration="2566000" />
+      <workItem from="1721490718463" duration="658000" />
+      <workItem from="1721491436315" duration="1822000" />
+      <workItem from="1721643897936" duration="173000" />
+      <workItem from="1721644283701" duration="13000" />
+      <workItem from="1721644326676" duration="95000" />
+      <workItem from="1721644528896" duration="21431000" />
+      <workItem from="1721732746086" duration="1121000" />
+      <workItem from="1721749559742" duration="1805000" />
+      <workItem from="1721752449649" duration="945000" />
+      <workItem from="1721759690710" duration="875000" />
+      <workItem from="1721765294611" duration="8382000" />
+      <workItem from="1721892838624" duration="3729000" />
+      <workItem from="1721898553442" duration="709000" />
+      <workItem from="1721904614246" duration="60000" />
+      <workItem from="1721904681423" duration="779000" />
+      <workItem from="1721916962222" duration="310000" />
+      <workItem from="1722170584756" duration="21240000" />
+      <workItem from="1722197697166" duration="3526000" />
+      <workItem from="1722201234822" duration="285000" />
+      <workItem from="1722273369250" duration="9000" />
+      <workItem from="1722274389520" duration="548000" />
+      <workItem from="1722274943755" duration="328000" />
+      <workItem from="1722275657660" duration="2340000" />
+      <workItem from="1722278026461" duration="1499000" />
+      <workItem from="1722279531479" duration="352000" />
+      <workItem from="1722279890965" duration="55000" />
+      <workItem from="1722279965072" duration="3759000" />
+      <workItem from="1722332067564" duration="1563000" />
+      <workItem from="1722333736848" duration="561000" />
+      <workItem from="1722334314452" duration="5653000" />
+      <workItem from="1722370852231" duration="198000" />
+      <workItem from="1722371054802" duration="5501000" />
+      <workItem from="1722376817302" duration="974000" />
+      <workItem from="1722421720430" duration="2093000" />
+      <workItem from="1722426411400" duration="23000" />
+      <workItem from="1722426676537" duration="2000" />
+      <workItem from="1722591960496" duration="17000" />
+      <workItem from="1722592000127" duration="2492000" />
+      <workItem from="1722594499556" duration="1354000" />
+      <workItem from="1722595860447" duration="824000" />
+      <workItem from="1722597127960" duration="2457000" />
+      <workItem from="1722599857228" duration="8553000" />
+      <workItem from="1722608439437" duration="131000" />
+      <workItem from="1722608613244" duration="134000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java program to edit music files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java program to edit music files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsatisfiedLinkError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Juzik$MainApplication.ic" NAME="MainApplication Coverage Results" MODIFIED="1722199699246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.juzik.juzik.*</FILTER>
+    </SUITE>
   </component>
 </project>

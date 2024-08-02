@@ -1,16 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.juzik.juzik.HelloController">
+<?import javafx.scene.image.ImageView?>
+<!--stylesheets="@dark-theme.css"-->
+<?import org.controlsfx.control.cell.MediaImageCell?>
+<VBox fx:controller="com.juzik.juzik.MainController" xmlns:fx="http://javafx.com/fxml" spacing="10">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets topRightBottomLeft="20"/>
     </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <HBox spacing="5" alignment="CENTER">
+        <Button text="Automation" onAction="#onAutomationButtonClick"/>
+        <Label text="Music Directory:"/>
+        <TextField fx:id="musicDirectory" minWidth="300"/>
+        <Button onAction="#onSubmitButtonClick">
+            <graphic>
+                <FontIcon iconLiteral="mdi2c-check"/>
+            </graphic>
+        </Button>
+        <Button text="Tutorial/Info" onAction="#onInfoButtonClick"/>
+    </HBox>
+    <HBox spacing="10">
+        <VBox spacing="5">
+            <HBox spacing="5" alignment="CENTER">
+                <Label text="Folders:"/>
+                <ComboBox fx:id="musicDirectories" onAction="#onMusicDirectorySelected"/>
+            </HBox>
+            <ListView fx:id="musicList" onMouseReleased="#onSelectedMusic"/>
+        </VBox>
+        <Separator orientation="VERTICAL" />
+        <VBox spacing="4" visible="false" fx:id="musicData">
+            <ImageView fx:id="coverImage" fitWidth="200" onDragOver="#onCoverImageDrag" onDragDropped="#onCoverImageDrop"/>
+            <Button alignment="CENTER">
+                <graphic>
+                    <FontIcon iconLiteral="mdi2c-close"/>
+                </graphic>
+            </Button>
+            <HBox spacing="5">
+                <Label text="File:" alignment="CENTER"/>
+                <TextField fx:id="musicFile"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Title:" alignment="CENTER"/>
+                <TextField fx:id="musicTitle"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Artist:" alignment="CENTER"/>
+                <TextField fx:id="musicArtist"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Album:" alignment="CENTER"/>
+                <TextField fx:id="musicAlbum"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="TrackN:" alignment="CENTER"/>
+                <TextField fx:id="musicTrack"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Genre:" alignment="CENTER"/>
+                <TextField fx:id="musicGenre"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Year:" alignment="CENTER"/>
+                <TextField fx:id="musicYear"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox spacing="5">
+                <Label text="Comment:" alignment="CENTER"/>
+                <TextField fx:id="musicComment"/>
+                <Button onAction="#onContentDeleteButtonPressed">
+                    <graphic>
+                        <FontIcon iconLiteral="mdi2c-close"/>
+                    </graphic>
+                </Button>
+            </HBox>
+            <Button text="Save" onAction="#onSaveButtonClicked"/>
+        </VBox>
+    </HBox>
 </VBox>
